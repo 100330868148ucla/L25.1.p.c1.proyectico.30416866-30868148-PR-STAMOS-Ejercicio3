@@ -13,8 +13,8 @@ desarrollado en VSCode utilizando HTML y JavaScript,
 siguiendo el patrón de diseño MVC. No requiere 
 instalación ya que es una página web. 
 Los autores del proyecto son 
-Orlando Rodríguez C.I: 30.868.148 y 
-José Daniel López C.I: 30.416.866.
+Orlando Rafael Rodríguez C.I: 30.868.148 y 
+José Daniel López C.I: 30.416.866
 
 ### Tabla de Contenidos
 1. [Introducción](#introducción)
