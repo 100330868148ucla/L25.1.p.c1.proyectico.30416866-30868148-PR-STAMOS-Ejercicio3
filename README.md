@@ -1,7 +1,6 @@
 ---
 
 # Proyectico 30416866-30868148-PRESTAMOS
-
 ### Descripción
 Este proyecto consiste en un sistema de control de préstamos realizado por una oficina. El sistema permite registrar información sobre cada préstamo, incluyendo el nombre del cliente, código del préstamo, monto y cantidad de meses. El programa está diseñado para calcular el monto disponible para préstamos y el porcentaje de comisión mensual que se cobrará. El proyecto fue desarrollado en VSCode utilizando HTML y JavaScript, siguiendo el patrón de diseño MVC. No requiere instalación ya que es una página web. Los autores del proyecto son Orlando Rodríguez C.I: 30.868.148 y José Daniel López C.I: 30.416.866.
 
