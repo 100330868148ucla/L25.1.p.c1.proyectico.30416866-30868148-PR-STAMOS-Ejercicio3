@@ -1,0 +1,115 @@
+---
+
+**Préstamo**
+
+Se desea llevar un control de los préstamos que realiza una oficina. Se tiene por cada préstamo: nombre del cliente, código del préstamo, monto y cantidad de meses. Se requiere de un programa que permita el registro de esta información, conociendo al principio de la ejecución el monto disponible para préstamos y el porcentaje de comisión mensual que se cobrará.
+
+**Datos de prueba**
+
+**Cliente 1:** Luis  
+**Código:** 1111  
+**Préstamo:** 1000  
+**Meses:** 3  
+
+**Cliente 2:** Carla  
+**Código:** 2222  
+**Préstamo:** 500  
+**Meses:** 2  
+
+**Cliente 3:** Mery  
+**Código:** 3333  
+**Préstamo:** 2000  
+**Meses:** 5  
+
+**Datos de inicialización de la oficina**
+
+**Monto disponible:** 20000.00  
+**Porcentaje de comisión mensual:** 5.00
+
+**Entrada**
+
+Cliente Código Préstamo Meses
+
+**Requerimientos**
+
+1. Monto final disponible
+2. Cantidad de clientes que pidieron por 2 meses
+3. Cliente que pidió el préstamo menor
+
+---
+
+**Cl_mOficina**
+
+- montoCaja
+- porcComisionMensual
+- prestamoMenor
++ ClienteConPrestamoMenor
++ constructor()
++ procesarPrestamo
++ montoFinalDisponible()
++ cantidadCl1_cliente2Meses()
++ ClienteConPrestamoMenor()
+
+**Cl_mPrestamo**
+
+- cliente
+- saldo
+- préstamo
+- meses
++ constructor(cliente, código, Préstamo, meses)
+
+**Cl_vPrestamo**
+
++ leerDatos
++ trepar
+
+**Cl_vOficina**
+
+- contador
+- btAgregar
+- saldoMontoDisponible
+- saldo_cliente2Meses
+- saldo_clienteMenor
+- inCliente
+- inCodigo
+- inMonto
+- inMes
++ constructor()
++ leerDatosPrestamo()
++ trepar()
+
+**Cl_principal**
+
+- vista
+- modelo
+- controlador
++ constructor()
+
+**Cl_controlador**
+
+- vista
+- modelo
+- controlador
++ constructor(modelo, vista)
++agregarPrestamos
+
+**Vista 1
+
+**Datos del Préstamo**
+
+Cliente | Código | Monto | Mes
+
+Monto final disponible:
+Cantidad de clientes que pidieron por 2 meses:
+Cliente que pidió el préstamo menor:
+---
+Lógica de los Procesos
+
+1)Mutiplicar el mes por la comicion sumar lo al 
+  préstamo y restarlo con monto Caja, repetir con cada new cl_prestamo y retornar el monto caja restante
+
+2)si meses es igual a 2 el contador aumentara 1
+
+3)Compara el valor de cada préstamo empezando por 
+  mas infinito
+
